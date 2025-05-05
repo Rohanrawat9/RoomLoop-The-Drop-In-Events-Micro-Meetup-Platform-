@@ -1,0 +1,138 @@
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T12:06:43.379Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T12:07:13.033Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T12:07:34.110Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T12:09:28.244Z"}
+{"level":"error","message":"Room status updater failed: Room validation failed: host: Path `host` is required.","timestamp":"2025-05-04T12:10:00.311Z"}
+{"level":"error","message":"Room status updater failed: Room validation failed: host: Path `host` is required.","timestamp":"2025-05-04T12:15:00.787Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T12:15:08.581Z"}
+{"level":"error","message":"Room status updater failed: Room validation failed: host: Path `host` is required.","timestamp":"2025-05-04T12:20:00.965Z"}
+{"level":"error","message":"Room status updater failed: Room validation failed: host: Path `host` is required.","timestamp":"2025-05-04T12:25:00.429Z"}
+{"level":"error","message":"Room status updater failed: Room validation failed: host: Path `host` is required.","timestamp":"2025-05-04T12:30:00.804Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T12:32:03.989Z"}
+{"level":"error","message":"Room status updater failed: Room validation failed: host: Path `host` is required.","timestamp":"2025-05-04T12:35:00.221Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T12:39:50.665Z"}
+{"level":"error","message":"Room status updater failed: Room validation failed: host: Path `host` is required.","timestamp":"2025-05-04T12:40:00.714Z"}
+{"level":"error","message":"Room status updater failed: Room validation failed: host: Path `host` is required.","timestamp":"2025-05-04T12:45:00.050Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T12:45:44.341Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T12:47:35.348Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T12:48:29.469Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 11 rooms.","timestamp":"2025-05-04T12:50:00.601Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 11 rooms.","timestamp":"2025-05-04T12:55:00.969Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 11 rooms.","timestamp":"2025-05-04T13:00:00.276Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 11 rooms.","timestamp":"2025-05-04T13:05:00.628Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 11 rooms.","timestamp":"2025-05-04T13:10:00.074Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 11 rooms.","timestamp":"2025-05-04T13:15:00.353Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 12 rooms.","timestamp":"2025-05-04T13:20:00.709Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 13 rooms.","timestamp":"2025-05-04T13:25:00.065Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 14 rooms.","timestamp":"2025-05-04T13:30:00.359Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 14 rooms.","timestamp":"2025-05-04T13:35:00.740Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 14 rooms.","timestamp":"2025-05-04T13:50:00.744Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 14 rooms.","timestamp":"2025-05-04T13:55:00.047Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T13:59:04.657Z"}
+{"level":"info","message":"Room status updater scheduled to run every 1 minutes.","timestamp":"2025-05-04T13:59:17.292Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 14 rooms.","timestamp":"2025-05-04T14:00:00.354Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 14 rooms.","timestamp":"2025-05-04T14:01:00.431Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T14:01:14.944Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 14 rooms.","timestamp":"2025-05-04T14:05:00.243Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T14:10:00.544Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T14:15:00.879Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T14:20:00.225Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T14:25:00.521Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T14:30:00.922Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T14:35:00.251Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T14:40:00.596Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T14:45:00.919Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T14:50:00.279Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T14:55:00.619Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T15:00:00.996Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T15:05:00.388Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T15:10:00.796Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T15:30:00.968Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T15:35:00.300Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T15:40:00.849Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T15:44:04.609Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T15:44:12.458Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T16:54:14.161Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T16:55:00.261Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 17 rooms.","timestamp":"2025-05-04T17:00:00.615Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T17:02:31.092Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T17:02:51.738Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T17:03:20.686Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T17:03:33.186Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T17:03:43.874Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 1 rooms.","timestamp":"2025-05-04T17:05:00.992Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 1 rooms.","timestamp":"2025-05-04T17:10:00.329Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 1 rooms.","timestamp":"2025-05-04T17:15:00.694Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 1 rooms.","timestamp":"2025-05-04T17:20:00.022Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked 1 rooms.","timestamp":"2025-05-04T17:25:00.370Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T17:27:53.569Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T17:29:33.647Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T17:30:00.709Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T17:34:18.066Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T17:35:00.137Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T17:36:09.799Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T17:40:00.080Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T17:45:00.433Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T17:50:00.770Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T17:54:22.463Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T17:55:00.534Z"}
+{"level":"info","message":"Notification created for user 6817a639dc5bf8e1e0109570: Room \"Private Study Group\" is now Live","timestamp":"2025-05-04T18:00:00.913Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T18:00:00.914Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T18:05:00.209Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T18:10:00.635Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T18:15:00.925Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T18:20:00.232Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T18:25:00.551Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T18:30:00.891Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T18:35:00.221Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T18:40:00.594Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T18:45:00.903Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T18:50:00.247Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T18:55:00.570Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T19:00:00.898Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T19:05:00.216Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T19:10:00.583Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T19:15:00.876Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T19:20:00.213Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T19:25:00.537Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T19:30:00.892Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T19:35:00.662Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T19:40:00.977Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T19:45:00.329Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T19:50:00.835Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T19:55:00.168Z"}
+{"level":"info","message":"Notification created for user 6817a639dc5bf8e1e0109570: Room \"Private Study Group\" is now Closed","timestamp":"2025-05-04T20:00:00.516Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T20:00:00.516Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T20:05:00.920Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T20:10:00.287Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T20:15:00.644Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T20:20:01.017Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T20:25:00.303Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T20:30:00.647Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T20:35:00.121Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T20:40:00.682Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T20:45:00.232Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T20:50:00.795Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T20:55:00.179Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T21:00:00.509Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T21:05:00.878Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T21:10:00.323Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T21:15:00.661Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T21:20:00.976Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T21:25:00.316Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T21:30:00.623Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T21:35:00.957Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T21:35:14.629Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T21:35:29.145Z"}
+{"level":"info","message":"Room status updater scheduled to run every 5 minutes.","timestamp":"2025-05-04T21:38:37.980Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T21:40:00.093Z"}
+{"level":"info","message":"Notification created for user 6817a666dc5bf8e1e0109573: You were invited to join the private room: Computer Science Study Group","timestamp":"2025-05-04T21:43:02.229Z"}
+{"level":"info","message":"Notification created for user 6817a639dc5bf8e1e0109570: Room \"Computer Science Study Group\" is now Closed","timestamp":"2025-05-04T21:45:00.443Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T21:45:00.444Z"}
+{"level":"info","message":"Notification 6817df6691087aab3fc95607 marked as read for user 6817a666dc5bf8e1e0109573","timestamp":"2025-05-04T21:45:19.133Z"}
+{"level":"info","message":"Notification created for user 6817a666dc5bf8e1e0109573: You were invited to join the private room: Private Study Group","timestamp":"2025-05-04T21:48:22.840Z"}
+{"level":"info","message":"Notification 6817df6691087aab3fc95607 marked as read for user 6817a666dc5bf8e1e0109573","timestamp":"2025-05-04T21:49:23.337Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T21:50:00.763Z"}
+{"level":"info","message":"Notification created for user 6817a639dc5bf8e1e0109570: A new user joined your room: Private Study Group","timestamp":"2025-05-04T21:50:05.535Z"}
+{"level":"info","message":"Notification created for user 6817a639dc5bf8e1e0109570: Room \"Current Workshop\" is now Live","timestamp":"2025-05-04T21:52:22.805Z"}
+{"level":"info","message":"Room status updater ran successfully. Checked [object Object] rooms.","timestamp":"2025-05-04T21:55:00.101Z"}
