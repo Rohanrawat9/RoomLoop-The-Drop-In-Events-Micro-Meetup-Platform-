@@ -6,7 +6,15 @@ const notificationSchema = new mongoose.Schema({
   message: { type: String, required: true },
   type: {
     type: String,
-    enum: ['Invitation', 'StatusChange', 'ParticipantJoined'],
+    enum: [
+      'Invitation', 
+      'StatusChange', 
+      'ParticipantJoined', 
+      'RoomDeleted', 
+      'RoomUpdated', 
+      'NewMessage',
+      'RoomJoined',  // Added RoomJoined to the list
+    ],
     required: true,
   },
   room: { type: mongoose.Schema.Types.ObjectId, ref: 'Room' }, // Optional, for room-related notifications

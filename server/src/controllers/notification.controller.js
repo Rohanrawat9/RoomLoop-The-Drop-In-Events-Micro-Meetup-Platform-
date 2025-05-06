@@ -17,3 +17,12 @@ exports.markNotificationAsRead = async (req, res) => {
     res.status(400).json({ error: error.message });
   }
 };
+
+exports.getAllNotifications = async (req, res) => {
+  try {
+    const notifications = await NotificationService.getAllNotifications();
+    res.json({ message: 'All notifications fetched successfully', notifications });
+  } catch (error) {
+    res.status(500).json({ error: 'Server error: ' + error.message });
+  }
+};

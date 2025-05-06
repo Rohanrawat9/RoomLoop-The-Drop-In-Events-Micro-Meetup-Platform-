@@ -17,7 +17,7 @@ const roomSchema = new mongoose.Schema({
   tags: [String],
   status: {
     type: String,
-    enum: ["Scheduled", "Live", "Closed"],
+    enum: ["Scheduled", "Live", "Closed", "Completed"],
     default: "Scheduled", // Default to Scheduled when created
   },
 });

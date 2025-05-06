@@ -1,7 +1,6 @@
-// src/config/config.js
+// Log environment variables for debugging
 module.exports = {
-    PORT: process.env.PORT || 5000,
-    MONGO_URI: process.env.MONGO_URI,
-    JWT_SECRET: process.env.JWT_SECRET,
-  };
-  
+  mongoUri: process.env.MONGO_URI,
+  port: process.env.PORT || 8000,
+  jwtSecret: process.env.JWT_SECRET,
+};

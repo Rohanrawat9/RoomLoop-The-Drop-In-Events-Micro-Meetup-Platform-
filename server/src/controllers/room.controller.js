@@ -42,7 +42,7 @@ exports.createRoom = async (req, res) => {
       .populate('invitedUsers', 'username email');
     res.status(201).json({ message: 'Room created successfully', room: populatedRoom });
   } catch (error) {
-    res.status(500).json({ error: 'Server error: ' + error.message });
+    res.status(500).json({ error: 'Failed to create room: ' + error.message });
   }
 };
 
@@ -55,7 +55,7 @@ exports.getRooms = async (req, res) => {
       .populate('invitedUsers', 'username email');
     res.json(rooms);
   } catch (error) {
-    res.status(500).json({ error: 'Server error: ' + error.message });
+    res.status(500).json({ error: 'Failed to retrieve rooms: ' + error.message });
   }
 };
 
@@ -71,18 +71,23 @@ exports.getRoomById = async (req, res) => {
     }
     res.json(room);
   } catch (error) {
-    res.status(500).json({ error: 'Server error: ' + error.message });
+    res.status(500).json({ error: 'Failed to retrieve room: ' + error.message });
   }
 };
 
 // Update a Room
 exports.updateRoom = async (req, res) => {
   try {
-    const { title, description, type, startTime, endTime, maxParticipants, tags } = req.body;
+    const { title, description, type, startTime, endTime, maxParticipants, tags, status } = req.body;
 
     // Validate time window if provided
     if (startTime && endTime && new Date(startTime) >= new Date(endTime)) {
       return res.status(400).json({ error: 'End time must be after start time' });
+    }
+
+    // Validate status if provided
+    if (status && !['Scheduled', 'Live', 'Closed'].includes(status)) {
+      return res.status(400).json({ error: 'Invalid room status' });
     }
 
     const room = await Room.findById(req.params.id);
@@ -97,7 +102,7 @@ exports.updateRoom = async (req, res) => {
 
     const updatedRoom = await Room.findByIdAndUpdate(
       req.params.id,
-      { title, description, type, startTime, endTime, maxParticipants, tags },
+      { title, description, type, startTime, endTime, maxParticipants, tags, status },
       { new: true, runValidators: true }
     )
       .populate('host', 'username email')
@@ -106,7 +111,7 @@ exports.updateRoom = async (req, res) => {
 
     res.json({ message: 'Room updated successfully', room: updatedRoom });
   } catch (error) {
-    res.status(500).json({ error: 'Server error: ' + error.message });
+    res.status(500).json({ error: 'Failed to update room: ' + error.message });
   }
 };
 
@@ -126,14 +131,14 @@ exports.deleteRoom = async (req, res) => {
     await Room.findByIdAndDelete(req.params.id);
     res.json({ message: 'Room deleted successfully' });
   } catch (error) {
-    res.status(500).json({ error: 'Server error: ' + error.message });
+    res.status(500).json({ error: 'Failed to delete room: ' + error.message });
   }
 };
 
 // Join a Room
 exports.joinRoom = async (req, res) => {
   try {
-    const room = await RoomService.joinRoom(req.params.id, req.user.id);
+    const room = await RoomService.joinRoom(req.params.id, req.user.id, req.io);
     res.json({ message: 'Joined room successfully', room });
   } catch (error) {
     res.status(400).json({ error: error.message });
@@ -143,7 +148,7 @@ exports.joinRoom = async (req, res) => {
 // Leave a Room
 exports.leaveRoom = async (req, res) => {
   try {
-    const room = await RoomService.leaveRoom(req.params.id, req.user.id);
+    const room = await RoomService.leaveRoom(req.params.id, req.user.id, req.io);
     res.json({ message: 'Left room successfully', room });
   } catch (error) {
     res.status(400).json({ error: error.message });
@@ -154,7 +159,7 @@ exports.leaveRoom = async (req, res) => {
 exports.inviteToRoom = async (req, res) => {
   try {
     const { invitedUserIds } = req.body;
-    const room = await RoomService.inviteToRoom(req.params.id, req.user.id, invitedUserIds);
+    const room = await RoomService.inviteToRoom(req.params.id, req.user.id, invitedUserIds, req.io);
     res.json({ message: 'Users invited successfully', room });
   } catch (error) {
     res.status(400).json({ error: error.message });
@@ -164,9 +169,40 @@ exports.inviteToRoom = async (req, res) => {
 // Manually Update Room Statuses
 exports.updateRoomStatuses = async (req, res) => {
   try {
-    const updatedCount = await RoomService.updateRoomStatuses();
+    const updatedCount = await RoomService.updateRoomStatuses(req.io);
     res.json({ message: `Room statuses updated successfully. Checked ${updatedCount} rooms.` });
   } catch (error) {
-    res.status(500).json({ error: 'Server error: ' + error.message });
+    res.status(500).json({ error: 'Failed to update room statuses: ' + error.message });
+  }
+};
+
+// Admin Delete Room
+exports.adminDeleteRoom = async (req, res) => {
+  try {
+    const result = await RoomService.adminDeleteRoom(req.params.id, req.io);
+    res.json(result);
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+};
+
+// Admin Update Room
+exports.adminUpdateRoom = async (req, res) => {
+  try {
+    const { title, description, type, startTime, endTime, maxParticipants, tags } = req.body;
+    const updatedRoom = await RoomService.adminUpdateRoom(req.params.id, {
+      title,
+      description,
+      type,
+      startTime,
+      endTime,
+      maxParticipants,
+      tags,
+    },
+    req.io
+  );
+    res.json({ message: 'Room updated successfully by admin', room: updatedRoom });
+  } catch (error) {
+    res.status(400).json({ error: error.message });
   }
 };

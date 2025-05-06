@@ -1,5 +1,10 @@
 // src/middlewares/error.middleware.js
+const Logger = require('../utils/logger');
 const errorMiddleware = (err, req, res, next) => {
+  Logger.error(`Error: ${err.message}`);
+  res.status(err.status || 500).json({
+    error: err.message || 'Internal Server Error',
+  });
     console.error(err);  // Log error details to the console (can replace with a logging library)
   
     // If the error is a validation error (e.g., from Mongoose validation)

@@ -2,7 +2,8 @@ const express = require('express');
 const router = express.Router();
 const roomController = require('../controllers/room.controller');
 const { authMiddleware } = require('../middlewares/auth.middleware');
-const { validateJoinRoom, validateLeaveRoom, validateInviteToRoom } = require('../validators/room.validator');
+const { adminMiddleware } = require('../middlewares/admin.middleware');
+const { validateJoinRoom, validateLeaveRoom, validateInviteToRoom, validateAdminUpdateRoom } = require('../validators/room.validator');
 const { validate } = require('../middlewares/validate.middleware');
 
 // Create a Room (Protected)
@@ -31,5 +32,9 @@ router.post('/:id/invite', authMiddleware, validateInviteToRoom, validate, roomC
 
 // Manually Update Room Statuses (Protected, Admin only - for testing)
 router.post('/update-status', authMiddleware, roomController.updateRoomStatuses);
+
+router.delete('/:id/admin', authMiddleware, adminMiddleware, roomController.adminDeleteRoom);
+
+router.put('/:id/admin', authMiddleware, adminMiddleware, validateAdminUpdateRoom, validate, roomController.adminUpdateRoom);
 
 module.exports = router;

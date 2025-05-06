@@ -3,10 +3,10 @@ const RoomService = require('../services/room.service');
 const Logger = require('./logger'); // Optional, for logging
 
 // Schedule status updates every 5 minutes
-const startStatusUpdater = () => {
+const startStatusUpdater = (io) => {
   cron.schedule('*/5 * * * *', async () => {
     try {
-      const updatedCount = await RoomService.updateRoomStatuses();
+      const updatedCount = await RoomService.updateRoomStatuses(io);
       Logger.info(`Room status updater ran successfully. Checked ${updatedCount} rooms.`);
     } catch (error) {
       Logger.error(`Room status updater failed: ${error.message}`);
