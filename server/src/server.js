@@ -17,7 +17,7 @@ if (!config.mongoUri || !config.jwtSecret) {
 
 const server = http.createServer(app);
 const io = new Server(server, {
-  cors: { origin: '*', methods: ['GET', 'POST'] },
+  cors: { origin: 'http://localhost:5173', methods: ['GET', 'POST'] },
 });
 
 app.set('io', io);

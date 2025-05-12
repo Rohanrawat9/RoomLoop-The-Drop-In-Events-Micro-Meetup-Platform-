@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+.gradient-bg {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.room-card:hover .room-overlay {
+  opacity: 1;
+}
+.chat-message:hover .message-time {
+  opacity: 1;
+}
+.sidebar {
+  transition: all 0.3s ease;
+}
+.sidebar-collapsed {
+  width: 70px;
+}
+.sidebar-expanded {
+  width: 250px;
+}
+.main-content {
+  transition: margin-left 0.3s ease;
+}
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

@@ -20,6 +20,7 @@ const initializeSocket = (io) => {
 
   io.on('connection', (socket) => {
     Logger.info(`User ${socket.user.id} connected via Socket.IO`);
+    socket.emit('test', 'Socket connected');  //Test event
 
     socket.join(`user-${socket.user.id}`);
 
